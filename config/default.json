@@ -1,3 +1,4 @@
 {
-    "mongoURI": "mongodb+srv://neha19:neha19@devconnector.buanh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+    "mongoURI": "mongodb+srv://neha19:neha19@devconnector.buanh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "jwtSecret": "mysecrettoken"
 }
