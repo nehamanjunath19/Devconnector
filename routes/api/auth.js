@@ -57,9 +57,9 @@ if(!isMatch){
        user: {
            id: user.id
        }
-   }
+   };
 
-   jwt .sign(
+   jwt.sign(
        payload, 
        config.get('jwtSecret'),
        {

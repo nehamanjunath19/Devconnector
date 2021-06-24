@@ -9,7 +9,7 @@ company: {
     type: String
 },
 website: {
-    type: Strinf
+    type: String
 },
 location: {
     type: String
