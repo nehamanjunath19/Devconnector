@@ -27,7 +27,7 @@ router.get('/', auth, async(req, res) => {
 
 router.post('/', [
     
-    check('email', 'Please include a valid emial').isEmail(),
+    check('email', 'Please include a valid emaial').isEmail(),
     check('password', 'Password is required').exists()
 ],
  async (req, res) => {
